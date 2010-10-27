@@ -72,7 +72,7 @@ ul#gnav li {
 	display: inline;
 }
 
-ul#gnav li#firstnav {
+ul#gnav li.first {
 	padding-left: 0;
 }
 
@@ -84,6 +84,10 @@ ul#gnav a {
 }
 
 ul#gnav a:hover {
+	background: #AEC992;
+}
+
+ul#gnav a.active {
 	background: #AEC992;
 }
 
