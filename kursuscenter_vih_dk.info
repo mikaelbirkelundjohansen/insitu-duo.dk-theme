@@ -1,7 +1,0 @@
-name = kursuscenter.vih.dk
-description = Layout is created by Lars Olesen. Layout is based on the standard Drupal 7 layout Stark.
-package = Core
-version = 0.1.0
-core = 7.x
-engine = phptemplate
-stylesheets[all][] = layout.css
