@@ -1,4 +1,3 @@
-
 <div id="bodywrap">
    <div id="head">
       <div class="wrap">
@@ -21,6 +20,7 @@
 
    <div id="content">
       <div class="wrap">
+      <h1><?php print $title; ?></h1>
       <?php echo render($page['content']); ?>
       </div>
    </div>
