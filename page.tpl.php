@@ -3,16 +3,16 @@
       <div class="wrap">
          <h2>IN SITU</h2>
          <hr />
-	 <?php if ($main_menu): ?>
-                		<?php print theme('links__system_main_menu', array(
-                  			'links' => $main_menu,
-                  			'attributes' => array('id' => 'gnav'),
-                            'heading' => array(
-                                'text' => t('Main menu'),
-                                'level' => 'h2',
-                                'class' => array('element-invisible')),
-                            )); ?>
-                        <?php endif; ?>
+	     <?php if ($main_menu): ?>
+            <?php print theme('links__system_main_menu', array(
+                'links' => $main_menu,
+                    'attributes' => array('id' => 'gnav'),
+                'heading' => array(
+                    'text' => t('Main menu'),
+                    'level' => 'h2',
+                    'class' => array('element-invisible')),
+             )); ?>
+         <?php endif; ?>
       </div>
    </div>
 
@@ -30,10 +30,9 @@
    <div id="foot">
       <div class="wrap">
          <div id="footertext">
-                  <div id="news">
-                    <?php echo render($page['highlighted']); ?>
-                 </div>
-          <p>&copy; 2004-<?php echo date('Y'); ?> IN SITU</p>
+            <div id="news">
+                <?php echo render($page['highlighted']); ?>
+            </div>
          </div>
       </div>
    </div>

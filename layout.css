@@ -121,6 +121,7 @@ ul#gnav a.active {
 	margin: 0;
 	padding: 0;
 	margin-bottom: 1em;
+	min-height: 80px;
 	overflow: auto;
 }
 
@@ -190,20 +191,21 @@ caption {
 	display: none;
 }
 
-table.filetable {
+table {
 	padding: 0.1em;
 	border-collapse: collapse;
 	margin-top: 0.8em;
+	width: 100%;
 }
 
-table.filetable th {
+table th {
 	text-align: left;
 }
 
-table.filetable td,table.filetable th {
+table td, table th {
 	border-bottom: 1px solid #5D893A;
 }
 
-col.filesize {
-	text-align: right;
+td.views-field {
+    background-color: #314508;
 }
