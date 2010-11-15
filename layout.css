@@ -58,13 +58,17 @@ h1#title {
 	display: none;
 }
 
-ul#gnav {
+#block-system-main-menu h2 {
+    display: none;
+}
+
+#block-system-main-menu ul.menu {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
 
-ul#gnav li {
+#block-system-main-menu ul.menu li {
 	margin: 0;
 	padding: 0;
 	padding-left: 0.5em;
@@ -72,22 +76,22 @@ ul#gnav li {
 	display: inline;
 }
 
-ul#gnav li.first {
+#block-system-main-menu ul.menu li.first {
 	padding-left: 0;
 }
 
-ul#gnav a {
+#block-system-main-menu ul.menu a {
 	font-weight: bold;
 	font-size: 0.8em;
 	text-decoration: none;
 	padding: 0.2em;
 }
 
-ul#gnav a:hover {
+#block-system-main-menu ul.menu a:hover {
 	background: #AEC992;
 }
 
-ul#gnav a.active {
+#block-system-main-menu ul.menu a.active {
 	background: #AEC992;
 }
 

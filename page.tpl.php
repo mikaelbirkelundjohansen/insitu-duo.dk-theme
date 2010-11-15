@@ -1,18 +1,9 @@
 <div id="bodywrap">
    <div id="head">
       <div class="wrap">
-         <h2>IN SITU</h2>
+         <h2><?php print $site_name; ?></h2>
          <hr />
-	     <?php if ($main_menu): ?>
-            <?php print theme('links__system_main_menu', array(
-                'links' => $main_menu,
-                    'attributes' => array('id' => 'gnav'),
-                'heading' => array(
-                    'text' => t('Main menu'),
-                    'level' => 'h2',
-                    'class' => array('element-invisible')),
-             )); ?>
-         <?php endif; ?>
+	     <?php print render($page['header']); ?>
       </div>
    </div>
 

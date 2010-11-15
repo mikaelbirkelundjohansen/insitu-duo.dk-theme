@@ -1,7 +1,0 @@
-name = insitu-duo_dk
-description = Layout is created by Mikael Johansen.
-package = Core
-version = 0.1.0
-core = 7.x
-engine = phptemplate
-stylesheets[all][] = layout.css
