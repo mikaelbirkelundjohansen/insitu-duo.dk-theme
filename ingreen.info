@@ -1,0 +1,7 @@
+name = ingreen
+description = Layout is created by Mikael Johansen in 2004.
+package = Core
+version = 0.1.0
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = layout.css
