@@ -30,7 +30,7 @@
       <div class="wrap">
          <div id="footertext">
             <div id="news">
-                <?php echo render($page['highlighted']); ?>
+                <?php echo render($page['footer']); ?>
             </div>
          </div>
       </div>

@@ -1,7 +1,11 @@
 name = ingreen
-description = Layout is created by Mikael Johansen in 2004.
+description = Very simple fixed layout with header, content and footer regions. Layout is created by Mikael Birkelund Jensen-Johansen in 2004 for Insitu-duo.dk and cannot be used on any other site.
 package = Core
-version = 0.1.0
+version = 0.2.0
 core = 7.x
 engine = phptemplate
 stylesheets[all][] = layout.css
+
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
