@@ -108,15 +108,15 @@ div.wrap {
   background: #314508;
   color: #BBC08A;
   overflow: hidden;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
-#content h3,#content h1,#content h2 {
+#content h1, #content h2,#content h3 {
   font-family: "Staccato 222 BT", "Trebuchet MS", Verdana, Arial, sans-serif;
-  font-size: 1.8em;
+  font-size: 1.4em;
   padding: 0;
   margin: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
 }
 
 #content p {
@@ -196,6 +196,6 @@ td.views-field {
   width: 385px !important;
 }
 
-#foot td {
-  width: 65px;
+#foot .views-view-grid td {
+  width: 115px;
 }
