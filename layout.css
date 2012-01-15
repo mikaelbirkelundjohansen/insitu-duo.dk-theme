@@ -1,11 +1,11 @@
 body {
-	background: #F5F5DC /* url(images/tile.jpg) */;
-	color: black;
-	font-family: "Trebuchet MS", Verdana, sans-serif;
+  background: #F5F5DC /* url(images/tile.jpg) */;
+  color: black;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
 }
 
 a {
-	color: #5D893A;
+  color: #5D893A;
 }
 
 /*
@@ -14,202 +14,176 @@ a {
 */
 
 #bodywrap {
-	/* centers element */
-	margin-left: -311px;
-	margin-top: 1em;
-	position: absolute;
-	left: 50%;
+  /* centers element */
+  margin-left: -311px;
+  margin-top: 1em;
+  position: absolute;
+  left: 50%;
 }
 
 #bodywrap hr {
-	display: none;
+  display: none;
 }
 
 div.wrap {
-	padding: 14px;
+  padding: 14px;
 }
 
 h1#title {
-	display: none;
+  display: none;
 }
 
 #head {
-	width: 520px;
-	height: 100px;
-	position: absolute;
-	left: 102px;
-	top: 0px;
-	background: #314508;
-	color: #BBC08A;
+  width: 520px;
+  height: 100px;
+  position: absolute;
+  left: 102px;
+  top: 0px;
+  background: #314508;
+  color: #BBC08A;
 }
 
 #head h2 {
-	font-family: "Staccato 222 BT", "Trebuchet MS", Verdana, Arial, sans-serif;
-	margin: 0;
-	padding: 0;
+  font-family: "Staccato 222 BT", "Trebuchet MS", Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 #head hr {
-	border: 1px solid #5D893A;
-	display: block;
+  border: 1px solid #5D893A;
+  display: block;
 }
 
 #skip-link {
-	display: none;
+  display: none;
 }
 
 #block-system-main-menu h2 {
-    display: none;
+  display: none;
 }
 
 #block-system-main-menu ul.menu {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 #block-system-main-menu ul.menu li {
-	margin: 0;
-	padding: 0;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	display: inline;
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline;
 }
 
 #block-system-main-menu ul.menu li.first {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 #block-system-main-menu ul.menu a {
-	font-weight: bold;
-	font-size: 0.8em;
-	text-decoration: none;
-	padding: 0.2em;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding: 0.2em;
 }
 
 #block-system-main-menu ul.menu a:hover {
-	background: #AEC992;
+  background: #AEC992;
 }
 
 #block-system-main-menu ul.menu a.active {
-	background: #AEC992;
+  background: #AEC992;
 }
 
 #content {
-	width: 413px;
-	height: 286px;
-	position: absolute;
-	left: 102px;
-	top: 110px;
-	background: #314508;
-	color: #BBC08A;
-	overflow: auto;
-	font-size: 0.9em;
+  width: 413px;
+  height: 286px;
+  position: absolute;
+  left: 102px;
+  top: 110px;
+  background: #314508;
+  color: #BBC08A;
+  overflow: auto;
+  font-size: 0.9em;
 }
 
 #content h3,#content h1,#content h2 {
-	font-family: "Staccato 222 BT", "Trebuchet MS", Verdana, Arial, sans-serif;
-	font-size: 1.8em;
-	padding: 0;
-	margin: 0;
-	margin-bottom: 0.5em;
+  font-family: "Staccato 222 BT", "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 1.8em;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5em;
 }
 
 #content p {
-	padding: 0;
-	margin: 0;
-	margin-bottom: 0.5em;
-}
-
-#news {
-	margin: 0;
-	padding: 0;
-	margin-bottom: 1em;
-	min-height: 80px;
-	overflow: auto;
-}
-
-#news h4 {
-	margin: 0;
-	padding: 0;
-}
-
-#news p {
-	margin: 0;
-	padding: 0;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5em;
 }
 
 #foot {
-	width: 515px;
-	height: 140px;
-	position: absolute;
-	left: 0;
-	top: 405px;
-	background: #314508;
-	color: #BBC08A;
+  width: 515px;
+  height: 140px;
+  position: absolute;
+  left: 0;
+  top: 405px;
+  background: #314508;
+  color: #BBC08A;
 }
 
-#footertext {
-	background: url(images/demo.jpg) no-repeat;
-	padding-left: 160px;
-	height: 110px;
-	vertical-align: bottom;
-	font-size: 0.8em;
+#foot .wrap {
+  margin: 0 0 0 1em;
+  padding: 0;
 }
 
-#footertext p {
-	margin: 0;
-	padding: 0;
+#foot td, #foot th {
+  border: none;
 }
 
 #lpic {
-	float: left;
-	position: absolute;
-	/*
-     left: 13px;
-     top: 15px;
-    */
-	width: 92px;
-	height: 396px;
-	background: url(images/christianhaand.jpg);
+  float: left;
+  position: absolute;
+  /*
+  left: 13px;
+  top: 15px;
+  */
+  width: 92px;
+  height: 396px;
+  background: url(images/christianhaand.jpg);
 }
 
 #rpic {
-	position: absolute;
-	left: 525px;
-	top: 110px;
-	height: 435px;
-	width: 96px;
-	background: url(images/rikkehaar.jpg);
+  position: absolute;
+  left: 525px;
+  top: 110px;
+  height: 435px;
+  width: 96px;
+  background: url(images/rikkehaar.jpg);
 }
 
 .picture p {
-	font-size: 0.9em;
-}
-
-.left {
-	float: left;
+  font-size: 0.9em;
 }
 
 caption {
-	display: none;
+  display: none;
 }
 
 table {
-	padding: 0.1em;
-	border-collapse: collapse;
-	margin-top: 0.8em;
-	width: 100%;
+  padding: 0.1em;
+  border-collapse: collapse;
+  margin-top: 0.8em;
+  width: 100%;
 }
 
 table th {
-	text-align: left;
+  text-align: left;
 }
 
 table td, table th {
-	border-bottom: 1px solid #5D893A;
+  border-bottom: 1px solid #5D893A;
 }
 
 td.views-field {
-    background-color: #314508;
+  background-color: #314508;
 }
