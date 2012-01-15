@@ -29,10 +29,6 @@ div.wrap {
   padding: 14px;
 }
 
-h1#title {
-  display: none;
-}
-
 #head {
   width: 520px;
   height: 100px;
@@ -46,7 +42,8 @@ h1#title {
 #head h2 {
   font-family: "Staccato 222 BT", "Trebuchet MS", Verdana, Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0.5em 0;
+  border-bottom: 1px solid #5D893A;    
 }
 
 #head h2 a {
@@ -58,8 +55,7 @@ h1#title {
 }
 
 #head hr {
-  border: 1px solid #5D893A;
-  display: block;
+  display: none;
 }
 
 #skip-link {
@@ -71,7 +67,7 @@ h1#title {
 }
 
 #block-system-main-menu ul.menu {
-  margin: 0;
+  margin: 0.5em 0 0 0;
   padding: 0;
   list-style-type: none;
 }
@@ -111,7 +107,7 @@ h1#title {
   top: 110px;
   background: #314508;
   color: #BBC08A;
-  overflow: auto;
+  overflow: hidden;
   font-size: 0.9em;
 }
 
@@ -194,4 +190,8 @@ table td, table th {
 
 td.views-field {
   background-color: #314508;
+}
+
+.jp-interface, .jp-playlist {
+  width: 385px !important;
 }
