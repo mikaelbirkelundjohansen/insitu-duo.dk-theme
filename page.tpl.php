@@ -1,7 +1,7 @@
 <div id="bodywrap">
   <div id="head">
     <div class="wrap">
-      <h2><?php print $site_name; ?></h2>
+      <h2><a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></h2>
       <hr />
 	  <?php print render($page['header']); ?>
     </div>
@@ -10,7 +10,7 @@
   <hr />
 
   <div id="content">
-    <div class="wrap">
+    <div class="wrap contextual-links-region">
       <div class="element-invisible"></div>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?><h1 class="title" id="page-title"><span><?php print $title; ?></span></h1><?php endif; ?>

@@ -49,6 +49,14 @@ h1#title {
   padding: 0;
 }
 
+#head h2 a {
+  text-decoration: none;
+}
+
+#head h2 a:hover {
+  text-decoration: underline;
+}
+
 #head hr {
   border: 1px solid #5D893A;
   display: block;
