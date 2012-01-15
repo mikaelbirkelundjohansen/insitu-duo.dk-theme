@@ -195,3 +195,7 @@ td.views-field {
 .jp-interface, .jp-playlist {
   width: 385px !important;
 }
+
+#foot td {
+  width: 65px;
+}
