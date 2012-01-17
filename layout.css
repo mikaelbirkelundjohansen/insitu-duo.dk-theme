@@ -199,3 +199,7 @@ td.views-field {
 #foot .views-view-grid td {
   width: 115px;
 }
+
+#content input {
+  width: 385px;
+}
