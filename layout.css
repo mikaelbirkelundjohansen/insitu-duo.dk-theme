@@ -107,7 +107,7 @@ div.wrap {
   top: 110px;
   background: #314508;
   color: #BBC08A;
-  overflow: hidden;
+  overflow: auto;
   font-size: 0.8em;
 }
 
